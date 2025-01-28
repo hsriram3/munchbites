@@ -12,6 +12,7 @@ android {
     namespace = "com.example.flutter_app_food"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
+    minSdkVersion = 21
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

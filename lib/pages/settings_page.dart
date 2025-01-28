@@ -164,7 +164,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 backgroundImage: profileImageUrl != null
                     ? NetworkImage(
                         profileImageUrl!) // Display the profile image
-                    : const AssetImage('assets/default_profile.png')
+                    : const AssetImage('images/default_profile.jpg')
                         as ImageProvider, // Default image if no profile image
               ),
             ),
